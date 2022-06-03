@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Rotem Landesman</title>
+	<subtitle>Subtitle. Rotem</subtitle>
+	
+	<link href="https://update-me.com/feed/feed.xml" rel="self"/>
+	<link href="https://update-me.com"/>
+	<updated>2022-06-03T05:07:30.413-00:00</updated>
+	<id>https://update-me.com</id>
+	<author>
+		<name>Made with ❤️ in Seattle</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title></title>
+		<link href="https://update-me.com/posts/dummy/"/>
+		<updated>2022-06-03T05:07:30.413-00:00</updated>
+		<id>https://update-me.com/posts/dummy/</id>
+		<content type="html">
+		  
+			
+				
+				
+				&lt;img src=&quot;https://update-me.com/.netlify/functions/ga?v=1&amp;_v=j83&amp;t=pageview&amp;dr=https%3A%2F%2Frss-feed-reader.com&amp;_s=1&amp;dh=update-me.com&amp;dp=%2Fposts%2Fdummy%2F&amp;ul=en-us&amp;de=UTF-8&amp;dt=undefined&amp;tid=GA ID. Rotem Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;display:none&quot; alt=&quot;&quot;&gt;
+			
+		</content>
+	</entry>
+</feed>

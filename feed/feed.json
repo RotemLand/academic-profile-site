@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Rotem Landesman",
+  "home_page_url": "https://update-me.com",
+  "feed_url": "https://update-me.com/feed/feed.json",
+  "description": "Description of the website. Rotem",
+  "author": {
+    "name": "Made with ❤️ in Seattle",
+    "url": ""
+  },
+  "items": [{
+      "id": "https://update-me.com/posts/dummy/",
+      "url": "https://update-me.com/posts/dummy/",
+      "title": "",
+      "content_html": "",
+      "date_published": "2022-06-03T05:07:30.413-00:00"
+    }
+  ]
+}
