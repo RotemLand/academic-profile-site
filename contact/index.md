@@ -1,33 +1,34 @@
 ---
-title: Rotem Landesman
-layout: layouts/home.njk
-description: Biographical Profile
-image: https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg
-date: Last Modified
+layout: layouts/base.njk
+title: Contact
+templateClass: tmpl-post
+eleventyNavigation:
+  key: Contact
+  order: 3
 ---
 
-<p> I'm a first year PhD student in the <a href="https://ischool.uw.edu/">Information School at the University of Washington</a>, advised by <a href="http://katiedavisresearch.com/"> Dr. Katie Davis</a> at the <a href="https://digitalyouth.ischool.uw.edu/">Digital Youth Lab</a>. </p>
+    <p> I'm a first year PhD student in the <a href="https://ischool.uw.edu/">Information School at the University of Washington</a>, advised by <a href="http://katiedavisresearch.com/"> Dr. Katie Davis</a> at the <a href="https://digitalyouth.ischool.uw.edu/">Digital Youth Lab</a>. </p>
 
-<p> My research looks at the impact and the power of technology in educational settings (formal and otherwise), its role in child and teen wellbeing, as well as children’s deeper thinking about technology and its implications on their lives. 
-    I explore the potential of critically examining technology and its advancements through philosophical praxis with children, and then tying those insights to designing for child wellbeing (child-centered design). 
-    Youth as philosophers of technology, I believe, has the potential of becoming both a fascinating avenue of learning for the children and adults involved, as well as a powerful tool to examine youth's usage habits, wellbeing, identity formation, ethical maturation, 
-    and the ways these should inform the design of future technologies.  
-</p>
-
-<p> Prior to attending UW, I was a student at <a href="https://www.runi.ac.il/en/">Reichman University</a> in the <a href="https://milab.runi.ac.il/">Milab</a>, where I worked on creating tangible objects of play for children and adults in a meaningful and impactful manner. 
-    I also received a <a href="https://go.tau.ac.il/he/humanities/ma/history-philosophy?v=additional-info">Masters in philosophy, science and digital culture</a> from Tel Aviv University, while working in various learning designer and marketing roles in the industry.  
-</p>     
-
-<p><a href="https://github.com/RotemLand/me/raw/main/Rotem%20Landesman_Resume01_22.pdf">Full CV</a>. 
-</p>
+    <p> My research looks at the impact and the power of technology in educational settings (formal and otherwise), its role in child and teen wellbeing, as well as children’s deeper thinking about technology and its implications on their lives. 
+        I explore the potential of critically examining technology and its advancements through philosophical praxis with children, and then tying those insights to designing for child wellbeing (child-centered design). 
+        Youth as philosophers of technology, I believe, has the potential of becoming both a fascinating avenue of learning for the children and adults involved, as well as a powerful tool to examine youth's usage habits, wellbeing, identity formation, ethical maturation, 
+        and the ways these should inform the design of future technologies.  
+    </p>
+    
+    <p> Prior to attending UW, I was a student at <a href="https://www.runi.ac.il/en/">Reichman University</a> in the <a href="https://milab.runi.ac.il/">Milab</a>, where I worked on creating tangible objects of play for children and adults in a meaningful and impactful manner. 
+        I also received a <a href="https://go.tau.ac.il/he/humanities/ma/history-philosophy?v=additional-info">Masters in philosophy, science and digital culture</a> from Tel Aviv University, while working in various learning designer and marketing roles in the industry.  
+    </p>     
+    
+    <p><a href="https://github.com/RotemLand/me/raw/main/Rotem%20Landesman_Resume01_22.pdf">Full CV</a>. 
+    </p>
 
 </header>
 
-<h3> Current Projects </h3>
+<h1> Current Projects </h1>
 
-<h4> Designing for Child Wellbeing </h4>
+<h2> Designing for Child Wellbeing </h2>
 
-<h5> 2022 - </h5>
+<h3> 2022 - </h3>
 
 <p> This project aims to systematically catalog the design metrics and motivations of companies/design teams across industry
     (platforms, app and game designers, video producers, content creators) who create digital products used by young children, paying
@@ -35,9 +36,9 @@ date: Last Modified
     based on the metrics found and rank them in accordance to their profitability/wellness impact.
 </p>
 
-<h4> Civic Engagement Module </h4>
+<h2> Civic Engagement Module </h2>
 
-<h5> 2021 - </h5>
+<h3> 2021 - </h3>
 
 <p> Developed a civic engagement module that supports public youth librarians’ skills and capacity to engage their youth patrons in civic actions.
     The module forms part of the ConnectedLib Toolkit, an open, online professional development toolkit designed to support librarians’ efforts
@@ -50,14 +51,13 @@ date: Last Modified
     impactful civic engagement programming based on their teen patrons’ interests, identities, and aspirations.
 </p>
 
-<h4> Teen Meaningful Tech Use </h4>
+<h2> Teen Meaningful Tech Use </h2>
 
-<h5> 2021 - </h5>
+<h3> 2021 - </h3>
 
-<p> This project aims to design,develop and test an intervention app, with the goal of helping teens to establish a sense of agency and
+This project aims to design,develop and test an intervention app, with the goal of helping teens to establish a sense of agency and
     intention over their social media use. Our goal is to support teens in feeling they’re in the driver’s seat of their social media
     experiences and through that improve their wellbeing. The developed app functions as a “wrapper” that allows researchers to control
     how teens enter the individual apps on their phone (e.g., Instagram, TikTok), as well as send reflective apps tied to the usage throughout
     the day. The intervention aims to break the cycle that many teens experience, whereby social media use they experience as unsatisfying
     contributes to lowered levels of wellbeing.
-</p>

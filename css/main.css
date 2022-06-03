@@ -1,7 +1,7 @@
 /* Color customization */
 :root {
-  --primary: #f9c412;
-  --primary-dark: #e7bf60;
+  --primary: #F0E100;
+  --primary-dark: #b994d7;
 }
 
 .test-dead-code-elimination-sentinel {
@@ -834,8 +834,8 @@ video {
 }
 body {
   font-family: var(--font-family);
-  background: #181818;
-  color: #eee;
+  background: #CBD2D0;
+  color: rgb(0, 0, 0);
 }
 section {
   margin-left: auto;
@@ -1114,7 +1114,7 @@ mark {
 }
 
 a {
-  color: var(--primary);
+  color: #c63c1d;
 }
 
 ::-webkit-scrollbar-thumb:hover {
