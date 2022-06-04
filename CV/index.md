@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
- {% pdfembed 'https://rotemland.github.io/img/resume.pdf' 'LIGHT_BOX' %}
+ {% pdfembed 'https://rotemland.github.io/img/resume.pdf' %}
