@@ -1125,8 +1125,3 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
-
-#adobe-pdf-view {
-  width: 100%;
-  height: 100%;
-}
