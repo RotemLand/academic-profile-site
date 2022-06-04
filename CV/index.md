@@ -23,7 +23,7 @@ eleventyNavigation:
         var adobeDCView = new AdobeDC.View({clientId: "%ADOBE_API_KEY%", divId: "adobe-dc-view"});
         adobeDCView.previewFile(
        {
-          content:   {location: {url: "https://rotemland.github.io/img/resume.pdf"}},
+          content:   {location: {url: "rotemland.github.io/img/resume.pdf"}},
           metaData: {fileName: "Rotem Landesman CV.pdf"}
        });
     });
