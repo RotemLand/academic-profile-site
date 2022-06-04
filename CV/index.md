@@ -14,6 +14,6 @@ eleventyNavigation:
 		adobeDCView.previewFile({
 			content:{location: {url: "https://rotemland.github.io/img/resume.pdf"}},
 			metaData:{fileName: "resume.pdf"}
-		});
+		}, {embedMode: "IN_LINE"});
 	});
 </script>
