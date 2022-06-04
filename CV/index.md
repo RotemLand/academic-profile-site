@@ -21,11 +21,11 @@ eleventyNavigation:
  <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function()
     {
-        var adobeDCView = new AdobeDC.View({clientId: process.env.ADOBE_API_KEY , divId: "adobe-dc-view"});
+        var adobeDCView = new AdobeDC.View({clientId: "b573153d9bf5432d8f6fffc88d6710e6" , divId: "adobe-dc-view"});
         adobeDCView.previewFile(
        {
           content:   {location: {url: "https://rotemland.github.io/img/resume.pdf"}},
-          metaData: {fileName: "Bodea Brochure.pdf"}
+          metaData: {fileName: "resume.pdf"}
        });
     });
  </script>
