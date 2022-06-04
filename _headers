@@ -25,6 +25,11 @@
 /CV/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
+/tags/index.html
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+/tags/
+  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
+
 /404.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 
@@ -48,10 +53,5 @@
 /contact/index.html
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 /contact/
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-
-/tags/index.html
-  Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
-/tags/
   Content-Security-Policy: default-src 'self';object-src 'none';script-src 'self' 'sha256-Ky9qZOPnMhQV/s7Fdb9TYAOfU4KtWNqCZaFK8tSzXa0=';style-src 'unsafe-inline';img-src 'self' data:
 # [end csp headers]
