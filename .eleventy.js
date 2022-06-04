@@ -59,6 +59,17 @@ const localImages = require("./third_party/eleventy-plugin-local-images/.elevent
 const CleanCSS = require("clean-css");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 const { cspDevMiddleware } = require("./_11ty/apply-csp.js");
+const pluginPDFEmbed = require('eleventy-plugin-pdfembed');
+
+module.exports = (eleventyConfig) => {
+
+	// more stuff here
+
+	eleventyConfig.addPlugin(pluginPDFEmbed, {
+		key: '%ADOBE_API_KEY%'
+	});
+
+}
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
