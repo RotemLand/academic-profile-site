@@ -63,7 +63,7 @@ const pluginPDFEmbed = require('eleventy-plugin-pdfembed');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginPDFEmbed, {
-		key: '%ADOBE_API_KEY%'
+		key: process.env.ADOBE_API_KEY
 	});
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
