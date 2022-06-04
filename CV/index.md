@@ -7,14 +7,13 @@ eleventyNavigation:
   order: 4
 ---
 
-<div id="adobe-dc-view"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
-  document.addEventListener("adobe_dc_view_sdk.ready", function(){
-    var adobeDCView = new AdobeDC.View({clientId: '%ADOBE_API_KEY%', divId: "adobe-dc-view"});
-    adobeDCView.previewFile({
-      content:{location: {url: "https://rotemland.github.io/img/resume.pdf"}},
-      metaData:{fileName: "resume.pdf"}
-    }, {});
-  });
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "%ADOBE_API_KEY%"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://rotemland.github.io/img/resume.pdf"}},
+			metaData:{fileName: "resume.pdf"}
+		}, {embedMode: "LIGHT_BOX"});
+	});
 </script>
