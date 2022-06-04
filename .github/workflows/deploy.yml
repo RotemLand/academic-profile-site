@@ -25,8 +25,6 @@ jobs:
     - name: Build
       run: |
         npm run build
-      env:
-        ADOBE_API_KEY: ${{ secrets.ADOBE_API_KEY }}
     - name: Publish
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
@@ -34,5 +32,3 @@ jobs:
         BASE_BRANCH: main # The branch the action should deploy from.
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: _site # The folder the action should deploy.
-      env:
-        ADOBE_API_KEY: ${{ secrets.ADOBE_API_KEY }}
