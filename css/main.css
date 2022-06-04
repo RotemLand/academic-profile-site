@@ -1126,7 +1126,7 @@ a {
   background: var(--primary);
 }
 
-adobe-pdf-view {
-  height: 100vh;
+#adobe-pdf-view {
   width: 100%;
+  height: 100%;
 }
