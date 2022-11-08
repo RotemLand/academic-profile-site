@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Resume
+title: CV
 templateClass: tmpl-post
 eleventyNavigation:
   key: CV
