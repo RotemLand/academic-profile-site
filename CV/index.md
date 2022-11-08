@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
- {% pdfembed 'https://rotemlandcv22.tiiny.site/' %}
+ {% pdfembed 'https://rotemland.github.io/pic/Rotem Landesman(CV Nov22).pdf' %}
