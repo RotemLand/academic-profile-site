@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
- {% pdfembed 'https://rotemland.github.io/img/resume.pdf' %}
+ {% pdfembed 'https://rotemlandcv22.tiiny.site/' %}
